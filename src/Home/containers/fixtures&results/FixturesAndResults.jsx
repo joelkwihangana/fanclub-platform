@@ -10,13 +10,13 @@ const FixturesAndResults = () => {
         <h1 className="gradient__text">Fixtures and results</h1>
       </div>
       <div className="platform__fixtures-container">
-        <div className="platform__fixtures-container_groupA">
+        {/* <div className="platform__fixtures-container_groupA">
           <Article
             imgUrl={blog01}
             date="yesterday"
             title=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, earum."
           />
-        </div>
+        </div> */}
         <div className="platform__fixtures-container_groupB">
           <Article
             imgUrl={blog02}
