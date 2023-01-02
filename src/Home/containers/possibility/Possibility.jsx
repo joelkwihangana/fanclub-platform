@@ -8,7 +8,7 @@ const Possibility = () => {
         <img src={fanOnLaptop} alt="possibility" />
       </div>
       <div className="platform__possibility-content">
-        <h4>Join us Early to get started</h4>
+        <h4>Get updates and support your favorite team everywhere you are! </h4>
         <h1 className="gradient__text">
           See Whats happening on Sunsize FC 24/7!
         </h1>

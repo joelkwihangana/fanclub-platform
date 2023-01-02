@@ -1,0 +1,40 @@
+.platform__fixtures{
+    display: flex;
+    flex-direction: column;
+}
+.platform__fixtures-heading{
+    width: 100%;
+    text-align-last: left;
+    margin-bottom: 5rem;
+}
+.platform__fixtures-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.platform__fixtures-container{
+    display: flex;
+    flex-direction: row;
+}
+.platform__fixtures-container_groupA{
+    flex:0.5;
+    margin-right: 2rem;
+}
+.platform__fixtures-container_groupB{
+    flex:1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width:990px){
+    .platform__fixtures-container{
+        flex-direction: column;
+    }
+    .platform__fixtures-container_groupA{
+        margin: 2rem 0;
+        
+    }
+}

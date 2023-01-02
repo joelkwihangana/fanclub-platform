@@ -37,9 +37,27 @@
     font-weight: 800;
     line-height: 45px;
     font-size: 34px;
+    margin: 1rem 0;
 }
 .platform__possibility-content p{
     font-family: var(--font-family);
     color: var(--color-text);
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2rem;
     
+}
+
+
+/* ____ handling media queries ____ */
+@media screen and (max-width:950px){
+    .platform__possibility{
+        flex-direction: column;
+    }
+    .platform__possibility-image{
+        margin: 1rem 0;
+    }
+    .platform__possibility-content {
+        margin-top: 2rem;
+    }
 }

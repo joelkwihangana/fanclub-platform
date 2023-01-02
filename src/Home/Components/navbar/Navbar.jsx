@@ -17,7 +17,7 @@ const Menu = () => (
       <a href="#theClub">The Club</a>
     </p>
     <p>
-      <a href="#schedule">Schedule</a>
+      <a href="#fixtures">Fixtures and Results</a>
     </p>
     <p>
       <a href="#newsAndGarelly">News</a>

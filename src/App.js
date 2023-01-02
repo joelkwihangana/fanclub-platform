@@ -7,7 +7,7 @@ import {
   Navbar,
 } from "./Home/Components";
 import {
-  Blog,
+  FixturesAndResults,
   Features,
   Header,
   Possibility,
@@ -27,7 +27,7 @@ const App = () => {
         <Features />
         <Possibility />
         <CallToAction />
-        <Blog />
+        <FixturesAndResults />
       </div>
     </>
   );
