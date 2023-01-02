@@ -12,6 +12,7 @@ import {
   Header,
   Possibility,
   WhatPlatform,
+  Footer,
 } from "./Home/containers";
 import "./App.css";
 
@@ -28,6 +29,7 @@ const App = () => {
         <Possibility />
         <CallToAction />
         <FixturesAndResults />
+        <Footer />
       </div>
     </>
   );

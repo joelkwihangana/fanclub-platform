@@ -11,17 +11,16 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#matches">Matches</a>
-    </p>
-    <p>
       <a href="#theClub">The Club</a>
-    </p>
-    <p>
-      <a href="#fixtures">Fixtures and Results</a>
     </p>
     <p>
       <a href="#newsAndGarelly">News</a>
     </p>
+
+    <p>
+      <a href="#fixtures">Fixtures and Results</a>
+    </p>
+
     <p>
       <a href="#contact">Contact</a>
     </p>
